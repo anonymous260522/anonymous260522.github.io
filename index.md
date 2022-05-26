@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Abtract
+## Abstract
 
 Learning to evaluate and improve policies is a core problem of Reinforcement Learning (RL). 
 Traditional RL algorithms learn a value function defined for a single policy. 
