@@ -2,9 +2,42 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Abtract
 
-[Link to another page](./another-page.html).
+Learning to evaluate and improve policies is a core problem of Reinforcement Learning (RL). 
+Traditional RL algorithms learn a value function defined for a single policy. 
+A recently explored competitive alternative is to learn a single value function for many policies. 
+Here we combine the actor-critic architecture of Parameter-Based Value Functions and the policy embedding of Policy Evaluation Networks to learn a single value function for evaluating (and thus helping to improve) any policy represented by a deep neural network (NN). 
+The method yields competitive experimental results. 
+In continuous control problems with infinitely many states, our value function minimizes its prediction error by simultaneously learning a small set of  `probing states' and a mapping from actions produced in probing states to the policy's return. 
+The method extracts crucial abstract knowledge about the environment in form of very few states sufficient to fully specify the behavior of many policies. 
+A policy improves solely by changing actions in probing states, following the gradient of the value function's predictions.  
+Surprisingly, it is possible to clone the behavior of a near-optimal policy in Swimmer-v3 and Hopper-v3 environments only by knowing how to act in 3 and 5 such learned states, respectively. 
+Remarkably, our value function trained to evaluate NN policies is also invariant to changes of the policy architecture: we show that it allows for zero-shot learning of linear policies competitive with the best policy seen during training. 
+
+
+## Hopper:
+
+{% assign img_size = 95 %}
+<img src="/assets/gifs/hopper/videoact_first0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+
+<img src="/assets/gifs/hopper/videoact_first0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+
+<img src="/assets/gifs/hopper/videoact_first0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/hopper/videoact_first4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+
+
 
 There should be whitespace between paragraphs.
 
