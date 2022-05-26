@@ -15,27 +15,83 @@ A policy improves solely by changing actions in probing states, following the gr
 Surprisingly, it is possible to clone the behavior of a near-optimal policy in Swimmer-v3 and Hopper-v3 environments only by knowing how to act in 3 and 5 such learned states, respectively. 
 Remarkably, our value function trained to evaluate NN policies is also invariant to changes of the policy architecture: we show that it allows for zero-shot learning of linear policies competitive with the best policy seen during training. 
 
-
-## Hopper:
-
 {% assign img_size = 95 %}
-<img src="/assets/gifs/hopper/videoact_first0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
-<img src="/assets/gifs/hopper/videoact_first0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+# Probing States Visualization
+## Hopper
+### Untrained
+<img src="/assets/gifs/Hopper_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Hopper_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Hopper_untrained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Hopper_untrained/videono_act3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Hopper_untrained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
-<img src="/assets/gifs/hopper/videoact_first0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
-<img src="/assets/gifs/hopper/videoact_first4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+### Trained
+<img src="/assets/gifs/Hopper_trained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Hopper_trained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Hopper_trained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Hopper_trained/videono_act3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Hopper_trained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+
+## Swimmer
+### Untrained
+<img src="/assets/gifs/Swimmer_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Swimmer_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Swimmer_untrained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Swimmer_untrained/videono_act3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Swimmer_untrained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+
+### Trained
+<img src="/assets/gifs/Swimmer_trained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Swimmer_trained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Swimmer_trained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Swimmer_trained/videono_act3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/Swimmer_trained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+
+## HalfCheetah
+### Untrained
+<img src="/assets/gifs/HC_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act5.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act6.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act7.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act8.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act9.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act10.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act11.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act12.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act13.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act14.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act15.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act16.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act17.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act18.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_untrained/videono_act19.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+
+### Trained
+<img src="/assets/gifs/HC_trained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act5.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act6.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act7.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act8.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act9.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act10.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act11.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act12.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act13.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act14.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act15.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act16.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act17.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act18.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
+<img src="/assets/gifs/HC_trained/videono_act19.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
 
 
