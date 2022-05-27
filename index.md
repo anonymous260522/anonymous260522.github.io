@@ -178,7 +178,7 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 <img src="/assets/gifs/Ant_trained/videono_act38.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Ant_trained/videono_act39.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
-## Ant
+## Walker2d
 ### Untrained
 <img src="/assets/gifs/Walker_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Walker_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
