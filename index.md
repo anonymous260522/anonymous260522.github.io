@@ -19,14 +19,14 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 
 # Probing States Visualization
 ## Hopper
-### Untrained
+### Probing States of Untrained PSSVF
 <img src="/assets/gifs/Hopper_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Hopper_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Hopper_untrained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Hopper_untrained/videono_act3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Hopper_untrained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
-### Trained
+### Probing States of Trained PSSVF
 <img src="/assets/gifs/Hopper_trained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Hopper_trained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Hopper_trained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
@@ -34,14 +34,14 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 <img src="/assets/gifs/Hopper_trained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
 ## Swimmer
-### Untrained
+### Probing States of Untrained PSSVF
 <img src="/assets/gifs/Swimmer_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Swimmer_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Swimmer_untrained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Swimmer_untrained/videono_act3.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Swimmer_untrained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
-### Trained
+### Probing States of Trained PSSVF
 <img src="/assets/gifs/Swimmer_trained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Swimmer_trained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Swimmer_trained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
@@ -49,7 +49,7 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 <img src="/assets/gifs/Swimmer_trained/videono_act4.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
 ## HalfCheetah
-### Untrained
+### Probing States of Untrained PSSVF
 <img src="/assets/gifs/HC_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/HC_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/HC_untrained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
@@ -71,7 +71,7 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 <img src="/assets/gifs/HC_untrained/videono_act18.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/HC_untrained/videono_act19.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
-### Trained
+### Probing States of Trained PSSVF
 <img src="/assets/gifs/HC_trained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/HC_trained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/HC_trained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
@@ -94,7 +94,7 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 <img src="/assets/gifs/HC_trained/videono_act19.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
 ## Ant
-### Untrained
+### Probing States of Untrained PSSVF
 <img src="/assets/gifs/Ant_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Ant_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Ant_untrained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
@@ -136,7 +136,7 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 <img src="/assets/gifs/Ant_untrained/videono_act38.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Ant_untrained/videono_act39.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
-### Trained
+### Probing States of Trained PSSVF
 <img src="/assets/gifs/Ant_trained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Ant_trained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Ant_trained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
@@ -179,7 +179,7 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 <img src="/assets/gifs/Ant_trained/videono_act39.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
 ## Walker2d
-### Untrained
+### Probing States of Untrained PSSVF
 <img src="/assets/gifs/Walker_untrained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Walker_untrained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Walker_untrained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
@@ -231,7 +231,7 @@ Remarkably, our value function trained to evaluate NN policies is also invariant
 <img src="/assets/gifs/Walker_untrained/videono_act48.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Walker_untrained/videono_act49.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 
-### Trained
+### Probing States of Trained PSSVF
 <img src="/assets/gifs/Walker_trained/videono_act0.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Walker_trained/videono_act1.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
 <img src="/assets/gifs/Walker_trained/videono_act2.gif" width="{{img_size}}" height="{{img_size}}" alt="gif">
